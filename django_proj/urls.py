@@ -20,8 +20,10 @@ from django.conf import settings
 from django.conf.urls.static import static
 from django.urls import path, include
 from users import views as user_view
+from django.shortcuts import redirect
 
 urlpatterns = [
+    path('', lambda request: redirect('blog/', permanent=False)),
     path('admin/', admin.site.urls),
     path('blog/', include('blog.urls')),
     path('login/', auth_view.LoginView.as_view(template_name = "users/login.html"), name="login"),
