@@ -3,9 +3,6 @@
 
 follow the Corey Django youtube tutorial: https://www.youtube.com/watch?v=UmljXZIypDc&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p 
 
-# Nodejs-blog: Django Blog website with User Authentication
-## Project created following [Corey Django tutorial](https://www.youtube.com/watch?v=UmljXZIypDc&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p )
-
 ## Table of contents
 * [General info](#general-info)
 * [Main Technologies](#main-technologies)
@@ -13,15 +10,14 @@ follow the Corey Django youtube tutorial: https://www.youtube.com/watch?v=UmljXZ
 * [Setup](#setup)
 * [Project Structure](#project-structure)
 * [Url Paths](#url-paths)
+* [Features](#features)
 
 ## General info
-This project is simple blog website mainly created with Django Web Framework.
+This project is simple blog website with user authentication created with Django Web Framework.
 	
 ## Main Technologies
 Project is created with:
 * Django version 4.2.6
-* Express version 4.18.2
-* MongoDB (mongoose version 7.4.0)
 
 ## Pre-requisites
 - Install [Python](https://www.python.org) version 3.11.5
